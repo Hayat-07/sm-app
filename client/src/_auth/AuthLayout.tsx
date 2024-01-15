@@ -3,6 +3,7 @@ import './authLayout.css';
 import { Outlet, Navigate} from 'react-router-dom';
 
 
+
 function AuthLayout() {
   let isAuthenticated = false;
  
@@ -15,9 +16,9 @@ function AuthLayout() {
 
         <section className='authLayout'>
           <>
-          <Outlet></Outlet>
+          <Outlet ></Outlet>
           </>
-          <div>Image div</div>
+          <div className='imageDiv'>Image div</div>
         </section>
     
       </>

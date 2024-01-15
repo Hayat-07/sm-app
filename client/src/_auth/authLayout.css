@@ -1,5 +1,5 @@
 .authLayout{
-
+    width: 100vw;
     height: 100vh;
     background-color: aliceblue;
     display: grid;
@@ -7,8 +7,15 @@
     justify-content: center;
     align-items: center;
     
+    .imageDiv{
+        border: 1px solid gray;
+    }
 }
 
 .authForm{
-    
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    justify-content: center;
+    align-items: center;
 }
